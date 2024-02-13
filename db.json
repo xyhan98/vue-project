@@ -1,0 +1,319 @@
+{
+    "category": [
+        {
+            "category_id": 1,
+            "category_name": "Fruit & Vegetables",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 2,
+            "category_name": "Bakery",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 3,
+            "category_name": "Poultry & Meat & Seafood",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 4,
+            "category_name": "Deli & Ready Meals",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 5,
+            "category_name": "Dairy & Eggs & Fridge",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 6,
+            "category_name": "Pantry",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 7,
+            "category_name": "Snacks & Confectionery",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 8,
+            "category_name": "Freezer",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 9,
+            "category_name": "Drinks",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 10,
+            "category_name": "Beer & Wine & Spirits",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 11,
+            "category_name": "Health & Wellness",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 12,
+            "category_name": "Beauty & Personal Care",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 13,
+            "category_name": "Healthy Life Pharmacy",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 14,
+            "category_name": "Pet",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 15,
+            "category_name": "Baby",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 16,
+            "category_name": "Cleaning & Household",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 17,
+            "category_name": "Home & Lifestyle",
+            "parent_category_id": 0,
+            "category_level": 1,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 18,
+            "category_name": "Fruit",
+            "parent_category_id": 1,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 19,
+            "category_name": "Vegetables",
+            "parent_category_id": 1,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 20,
+            "category_name": "Salad",
+            "parent_category_id": 1,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 21,
+            "category_name": "Organic",
+            "parent_category_id": 1,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 22,
+            "category_name": "In-Store Bakery",
+            "parent_category_id": 2,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 23,
+            "category_name": "Packaged Bread & Bakery",
+            "parent_category_id": 2,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 24,
+            "category_name": "Poultry",
+            "parent_category_id": 3,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 25,
+            "category_name": "Meat",
+            "parent_category_id": 3,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 26,
+            "category_name": "Seafood",
+            "parent_category_id": 3,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 27,
+            "category_name": "BBQ Meat",
+            "parent_category_id": 3,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 28,
+            "category_name": "Deli Meat",
+            "parent_category_id": 4,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 29,
+            "category_name": "Ready to Eat Meals",
+            "parent_category_id": 4,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 30,
+            "category_name": "Vegetarian & Vegan",
+            "parent_category_id": 4,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 31,
+            "category_name": "Cheese",
+            "parent_category_id": 5,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 32,
+            "category_name": "Milk",
+            "parent_category_id": 5,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 33,
+            "category_name": "Yogurt",
+            "parent_category_id": 5,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 34,
+            "category_name": "Cream & Custard & Desserts",
+            "parent_category_id": 5,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        },
+        {
+            "category_id": 35,
+            "category_name": "Eggs & Butter & Margarine",
+            "parent_category_id": 5,
+            "category_level": 2,
+            "sort_order": 1,
+            "is_active": 1,
+            "icon": null
+        }
+    ]
+}
