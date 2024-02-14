@@ -315,5 +315,287 @@
       "is_active": 1,
       "icon": null
     }
+  ],
+  "brand": [
+    {
+      "id": "1",
+      "brand_name": "Coles",
+      "description": "Coles Supermarket offers a wide range of groceries, deli, meat, fresh fruit and vegetables at everyday low prices.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "2",
+      "brand_name": "Woolworths",
+      "description": "Woolworths Group is a leading retailer of food, everyday needs and B2B services, with 1,400 stores across Australia and New Zealand.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "3",
+      "brand_name": "Aldi",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "4",
+      "brand_name": "IGA",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "5",
+      "brand_name": "Costco",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "6",
+      "brand_name": "Apple",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "7",
+      "brand_name": "Huawei",
+      "description": "Huawei is a leading global ICT company that offers products and services for 5G, AI, cloud, and more.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "8",
+      "brand_name": "Samsung",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "9",
+      "brand_name": "Xiaomi",
+      "description": "Xiaomi is a global company that produces quality products at honest pricing.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "10",
+      "brand_name": "Devondale",
+      "description": "Devondale is a dairy processor that offers a range of products made with fresh Australian milk from free grazing cows.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "11",
+      "brand_name": "Vitasoy",
+      "description": "Vitasoy believes it’s important to plant healthy habits early in life and is committed to supporting the children and communities.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "12",
+      "brand_name": "Dairy Farmers",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "13",
+      "brand_name": "A2",
+      "description": "Love Milk Again! a2 Milk® is 100% real cows' milk from grain & grass-fed cows. It is easier on digestion and may help some avoid discomfort.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "14",
+      "brand_name": "Yakult",
+      "description": "Yakult, the world's leading probiotic beverage created in Japan in 1935.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "15",
+      "brand_name": "Oreo",
+      "description": "OREO is a brand of cookies that offers personalized gifts, recipes and more with OREOiD.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "16",
+      "brand_name": "Ritz Crackers",
+      "description": "Ritz Crackers are the perfect snack for any occasion, whether you want to make a festive holiday tree, a delicious bruschetta, or just enjoy them plain.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "17",
+      "brand_name": "Smith's",
+      "description": "Smith's potato chips caters to all snacks lovers. Crinkle-cut fans and thinly-cut passionates will find classic & unique flavours they'll love.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "18",
+      "brand_name": "Doritos",
+      "description": "DORITOS® is more than chips and dips - through its iconic flavors and signature crunch Doritos ignites boldness in everyone.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "19",
+      "brand_name": "Coca-Cola",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "20",
+      "brand_name": "Pepsi",
+      "description": "PepsiCo is a global company that produces and sells a wide range of products, including Lay's, Doritos, Cheetos, Pepsi-Cola, Mountain Dew and more.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "21",
+      "brand_name": "Sprite",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "22",
+      "brand_name": "Lipton",
+      "description": "Lipton is a leading brand of tea products, offering a variety of flavors, benefits and tips for healthy hydration.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "23",
+      "brand_name": "Nescafe",
+      "description": "NESCAFÉ is a global coffee brand that offers a range of delicious and diverse coffees, from classic to non-dairy, from instant to pour-over.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "24",
+      "brand_name": "Moccona",
+      "description": "Moccona offers a range of coffee products, including instant, sachet and capsules, with different intensities and flavours.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "25",
+      "brand_name": "Twinings",
+      "description": "Twinings Tea USA offers a wide range of tea blends, from English Breakfast to culinary grade matcha, in tea bags, loose tea and K-Cup® pods.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "26",
+      "brand_name": "Pantene",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "27",
+      "brand_name": "Dove",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "28",
+      "brand_name": "Kleenex",
+      "description": "Kleenex® offers a range of tissues and hand towels for various needs, such as colds, allergies, crafts and more.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "29",
+      "brand_name": "Quilton",
+      "description": "Quilton is an Australian owned brand, with a wide range of products loved by Australians and proud to be the number one best seller here.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "30",
+      "brand_name": "Dettol",
+      "description": "Dettol offers a range of products to protect your family from harmful germs and keep your home clean and fresh.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "31",
+      "brand_name": "Colgate",
+      "description": "Colgate® offers a range of oral health products, such as toothpastes, mouthwashes, and toothbrushes, as well as oral care education and support.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "32",
+      "brand_name": "Oral-B",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "33",
+      "brand_name": "Sensodyne",
+      "description": "",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "34",
+      "brand_name": "Omo",
+      "description": "OMO is a global detergent brand that aims to help young people take positive action for a better world.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    },
+    {
+      "id": "35",
+      "brand_name": "Cold Power",
+      "description": "Cold Power, with boosted whitening & brightening power, gives you clean fresh clothes in cold water wash.",
+      "sort_order": 1,
+      "is_active": 1,
+      "logo": null
+    }
   ]
 }

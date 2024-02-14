@@ -1,15 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
-
-import { ref } from "vue";
 import { Menu as IconMenu, Message, Setting } from "@element-plus/icons-vue";
-
-const item = {
-  date: "2016-05-02",
-  name: "Tom",
-  address: "No. 189, Grove St, Los Angeles"
-};
-const tableData = ref(Array.from({ length: 20 }).fill(item));
 </script>
 
 <template>
@@ -24,7 +15,7 @@ const tableData = ref(Array.from({ length: 20 }).fill(item));
             <el-menu-item-group>
               <template #title>Group 1</template>
               <el-menu-item index="/product/category">Category</el-menu-item>
-              <el-menu-item index="1-2">Option 2</el-menu-item>
+              <el-menu-item index="/product/brand">Brand</el-menu-item>
             </el-menu-item-group>
             <el-menu-item-group title="Group 2">
               <el-menu-item index="1-3">Option 3</el-menu-item>
@@ -91,11 +82,6 @@ const tableData = ref(Array.from({ length: 20 }).fill(item));
 
       <el-main>
         <el-scrollbar>
-          <!-- <el-table :data="tableData">
-            <el-table-column prop="date" label="Date" width="140" />
-            <el-table-column prop="name" label="Name" width="120" />
-            <el-table-column prop="address" label="Address" />
-          </el-table> -->
           <RouterView />
         </el-scrollbar>
       </el-main>
