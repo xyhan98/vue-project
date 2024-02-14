@@ -16,7 +16,7 @@ const tableData = ref(Array.from({ length: 20 }).fill(item));
   <el-container class="layout-container">
     <el-aside>
       <el-scrollbar>
-        <el-menu :default-openeds="['1', '3']" router="true">
+        <el-menu :default-openeds="['1', '3']" :router="true">
           <el-sub-menu index="1">
             <template #title>
               <el-icon><message /></el-icon>Product
