@@ -30,12 +30,7 @@
         <el-input v-model="form.category_name" placeholder="Please input category name" />
       </el-form-item>
       <el-form-item label="Parent Category ID" :label-width="formLabelWidth">
-        <el-input
-          v-model="form.parent_id"
-          disabled
-          placeholder="Please input parent category id"
-          type="number"
-        />
+        <el-input v-model="form.parent_id" disabled placeholder="Please input parent category id" />
       </el-form-item>
       <el-form-item label="Parent Category Name" :label-width="formLabelWidth">
         <el-select
@@ -71,8 +66,8 @@
     </el-form>
     <template #footer>
       <div class="dialog-footer">
-        <el-button @click="dialogFormVisible = false">Cancel</el-button>
-        <el-button type="primary" @click="dialogFormVisible = false"> Confirm </el-button>
+        <el-button @click="clearForm">Cancel</el-button>
+        <el-button type="primary" @click="handleSubmit"> Confirm </el-button>
       </div>
     </template>
   </el-dialog>
@@ -80,6 +75,7 @@
 
 <script setup>
 import { onMounted, reactive, ref } from "vue";
+import { ElMessage, ElMessageBox } from "element-plus";
 import { ProductService } from "@/services";
 
 // el-tree
@@ -97,6 +93,8 @@ const dialogFormVisible = ref(false);
 
 const dialogFormTitle = ref("");
 
+const dialogFormType = ref("");
+
 const formLabelWidth = "140px";
 
 const disabled = ref(false);
@@ -106,7 +104,7 @@ const parentCategories = ref([]);
 const form = reactive({
   id: "",
   category_name: "",
-  parent_id: "",
+  parent_id: "0",
   parent_category_name: "",
   category_level: "",
   sort_order: 1,
@@ -127,6 +125,23 @@ const handleParentCategoryChange = (value) => {
   form.parent_id = category.id;
 };
 
+const handleSubmit = async () => {
+  expandedKeys.value = dialogFormType.value === "add" ? await handleAdd() : await handleEdit();
+  dataSource.value = await ProductService.getProductCategories();
+  clearForm();
+};
+
+const clearForm = () => {
+  dialogFormVisible.value = false;
+  form.id = "";
+  form.category_name = "";
+  form.parent_id = "0";
+  form.parent_category_name = "";
+  form.category_level = "";
+  form.sort_order = 1;
+  form.is_active = true;
+};
+
 const edit = async (data) => {
   // console.log(data);
   const id = data.parent_id;
@@ -141,7 +156,21 @@ const edit = async (data) => {
   disabled.value = false;
   dialogFormVisible.value = true;
   dialogFormTitle.value = "Edit Category";
-  expandedKeys.value = [data.parent_id];
+  dialogFormType.value = "edit";
+};
+
+const handleEdit = async () => {
+  const data = {
+    id: form.id,
+    category_name: form.category_name,
+    parent_id: form.parent_id,
+    category_level: form.category_level,
+    sort_order: form.sort_order,
+    is_active: Number(form.is_active)
+  };
+  await ProductService.updateProductCategory(data.id, data);
+  ElMessage.success("Category updated successfully");
+  return [data.parent_id];
 };
 
 const append = (data) => {
@@ -152,24 +181,34 @@ const append = (data) => {
   disabled.value = true;
   dialogFormVisible.value = true;
   dialogFormTitle.value = "Add Category";
-  const child = {
-    id: 100,
+  dialogFormType.value = "add";
+};
+
+const handleAdd = async () => {
+  const data = {
     category_name: form.category_name,
     parent_id: form.parent_id,
     category_level: form.category_level,
     sort_order: form.sort_order,
     is_active: Number(form.is_active)
   };
-  if (!data.children) {
-    data.children = [];
-  }
-  data.children.push(child);
-  dataSource.value = [...dataSource.value];
-  expandedKeys.value = [data.id];
+  await ProductService.createProductCategory(data);
+  ElMessage.success("Category added successfully");
+  return [data.parent_id];
 };
 
 const remove = (node, data) => {
-  console.log(node, data);
+  // console.log(node, data);
+  ElMessageBox.confirm(`Are you sure to delete [${data.category_name}] permanently?`, "Alert", {
+    confirmButtonText: "Confirm",
+    cancelButtonText: "Cancel",
+    type: "warning"
+  }).then(async () => {
+    await ProductService.deleteProductCategory(data.id);
+    expandedKeys.value = [data.parent_id];
+    dataSource.value = await ProductService.getProductCategories();
+    ElMessage.success("Category deleted successfully");
+  });
 };
 </script>
 
