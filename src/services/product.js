@@ -61,3 +61,27 @@ export const getProductBrandsByPage = async (page, pageSize) => {
   // console.log(response.data);
   return response.data.data;
 };
+
+export const getProductBrandByName = async (brand_name) => {
+  const response = await axios.get("/api/brand", {
+    params: {
+      brand_name
+    }
+  });
+  return response.data;
+};
+
+export const createProductBrand = async (data) => {
+  const response = await axios.post("/api/brand/", data);
+  return response.data;
+};
+
+export const updateProductBrand = async (id, data) => {
+  const response = await axios.put(`/api/brand/${id}/`, data);
+  return response.data;
+};
+
+export const deleteProductBrand = async (id) => {
+  const response = await axios.delete(`/api/brand/${id}/`);
+  return response.data;
+};
